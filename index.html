@@ -201,9 +201,12 @@
             }]
         }
     };
+    // console.log('before: ', TABS.all.items);
     for (let i = 0; i < 6; ++i) {
         TABS.all.items = [...TABS.all.items, ...TABS.all.items];
+        // console.log('inside: ', TABS.all.items);
     }
+    // console.log('after: ', TABS.all.items);
     const TABS_KEYS = Object.keys(TABS);
 
     function Main() {
