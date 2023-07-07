@@ -4,10 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Яндекс.Дом</title>
-    <!-- <script src="./vendors/react-with-dom.js" defer></script> -->
     <script defer crossorigin src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
     <script defer crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
-    <!-- <script src="./vendors/babel.min.js" defer></script> -->
     <script defer src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
     <link rel="stylesheet" type="text/css" href="./reset.css">
     <link rel="stylesheet" type="text/css" href="./styles.css">
@@ -204,10 +202,12 @@
             }]
         }
     };
+
+    const TABS_KEYS = Object.keys(TABS);
     for (let i = 0; i < 6; ++i) {
         TABS.all.items = TABS.all.items.concat(TABS.all.items);
     }
-    const TABS_KEYS = Object.keys(TABS);
+    // const TABS_KEYS = Object.keys(TABS);
 
     function Main() {
         const ref = React.useRef();
@@ -341,7 +341,7 @@
                     </h2>
 
                     <select className="section__select" defaultValue="all" onInput={onSelectInput}>
-                        {TABS_KEYS.map(key =>
+                          {TABS_KEYS.map(key =>
                             <option key={key} value={key}>
                                 {TABS[key].title}
                             </option>
