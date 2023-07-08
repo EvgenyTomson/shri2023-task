@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/shri2023-task/static/css/main.fbeb5692.css",
+    "main.js": "/shri2023-task/static/js/main.449b0eb8.js",
+    "static/media/bg@2x.webp": "/shri2023-task/static/media/bg@2x.86f35448ef3226b5b7e4.webp",
+    "static/media/logo.svg": "/shri2023-task/static/media/logo.67c159bc892217e8dd0a.svg",
+    "static/media/icon_list_m@1x.svg": "/shri2023-task/static/media/icon_list_m@1x.2414e1d05295ed200837.svg",
+    "index.html": "/shri2023-task/index.html",
+    "static/media/arrow-down.svg": "/shri2023-task/static/media/arrow-down.b1e81be63f5cec2bbc39.svg",
+    "static/media/icon_temperature.svg": "/shri2023-task/static/media/icon_temperature.a49e12e92be1540dff02.svg",
+    "static/media/icon_temperature_2.svg": "/shri2023-task/static/media/icon_temperature_2.d83273ec7ab533de1f87.svg",
+    "static/media/cloud-drizzle.svg": "/shri2023-task/static/media/cloud-drizzle.6ccf416356c041555e2c.svg",
+    "static/media/icon_sun.svg": "/shri2023-task/static/media/icon_sun.1af6f762798486e26c4b.svg",
+    "static/media/icon_sun_2.svg": "/shri2023-task/static/media/icon_sun_2.a4dd908b57fffc115065.svg",
+    "static/media/icon_scheduled.svg": "/shri2023-task/static/media/icon_scheduled.6012d6f6a2273c844bbe.svg",
+    "main.fbeb5692.css.map": "/shri2023-task/static/css/main.fbeb5692.css.map",
+    "main.449b0eb8.js.map": "/shri2023-task/static/js/main.449b0eb8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fbeb5692.css",
+    "static/js/main.449b0eb8.js"
+  ]
+}
